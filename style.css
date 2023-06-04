@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+
+*{
+    color: black;
+}
+
+div, h2 {
+    color: rgb(174, 34, 34);
+}
+
+/* input  {
+    color: blue;
+} */
+#Budgetting{
+    padding-left: 318px;
+}
+#heading{
+    padding-left:500px;
+}
+input {
+    background-color:#EFEFEB;
+}
+#BudgetBtn{
+    background-color: peachpuff;
+    width: 100px;
+    border: solid 2px black;
+    color: black;
+}
+#ExpenseBtn{
+    background-color: peachpuff;
+    width: 100px;
+    border: solid 2px black;
+    color: black;
+}
+
+#removeBtn{
+    background-color: peachpuff;
+    width: 130px;
+    border: solid 2px black;
+    color: black;
+}
+
+li{
+    box-shadow: 0px 0px 4px 0px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgetting App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+  <div><h1 id="heading"> <u>Set Budget Form:</u> </h1></div>
+  
+  <div id="Budgetting">
+    <div>
+    <h2> <u>BUDGET.</u></h2>
+    <!-- <div id ="BudgetBtn" onclick="Budget()"> set budget</div> -->
+    
+   
+    <input type="text" size="25" maxlength="40" id="Budget"/>
+
+   <div id ="BudgetBtn" onclick="Budget()"> set budget</div> 
+
+  <div>
+    <h2 id="Expense">
+     <u>Add Expense Form (You Can Remove "Recurring" & "Tax" Fields):</u>
+      
+    </h2>
+ <h3><u>Due Date*.</u></h3>
+<input type="date" size="50" maxlength="45" id="date"/>
+<H3>
+  <u>Total Amount*.</u> 
+  </H3>
+  <input type="text" size="25" maxlength="30" id="expenseAmount"/>
+
+  <div>
+    <h3><u>Description</u></h3>
+    <input type="text" size="25" maxlength="30" id="description"/>
+  </div>
+
+<div id="ExpenseBtn" onclick="expence()">Add Expense</div>
+  
+ 
+  <div>
+    <h1> <u> Overview Details Screen:</u></h1>
+  </div>
+
+ <div id="finalBudget"></div>
+  
+
+ <div id="totalExpense"></div>
+
+
+ <div id="totalBalance"></div>
+ <h1> <u>Expense List:</u></h1>
+ <div id="removeBtn" onclick="removeList()">Remove Expense</div>
+ <ul id="expenceList">
+      
+ </ul>
+</body>
+</html>
